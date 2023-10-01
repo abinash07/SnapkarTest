@@ -1,0 +1,366 @@
+/*************************For top menu css********************************/
+body{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top{
+	width: 100%;
+	background: #FFFFFF;
+	height: 45px;
+	position:fixed;
+	top: 0;
+	box-sizing: border-box;
+	z-index: 2;
+	border: solid #F0F0F0;
+	border-width: 0 0 1px 0;
+}
+#bar{
+	color: #262626;
+	font-size: 20px;
+	margin: 10px 15px 5px 2.5%;
+	float:left;
+	cursor: pointer;
+}
+#img{
+	color: #262626;
+	font-size: 23px;
+	margin: 10px 1px 5px 1px;
+	float: left;
+}
+#snap{
+	color: #262626;
+	font-size: 20px;
+	text-decoration: none;
+	margin: 8px 15px 5px 5px;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+}
+#img{
+	float: right;
+	margin: 10px 2.5% 0 5px;
+}
+#img img{
+	height: 25px;
+	width: 25px;
+	border-radius: 100%;
+	border: 2px solid #E4E7FA;
+}
+#card{
+	color: #262626;
+	font-size: 20px;
+	float: right;
+	margin: 10px 2.5% 5px 5px;
+}
+#search{
+	color: #262626;
+	font-size:22px;
+	float: right;
+	margin: 10px 15px 5px 5px;
+}
+#top29{
+	display: none;
+}
+.space{
+	height: 45px;
+}
+.sidebar{
+	height: 100%;
+	width: 0;
+	background-color: #f3f5f7;
+	padding-top: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 0.5s;
+	z-index: 2;
+}
+.sidebar button{
+	background-color: #0B7DDA;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-weight: bold;
+	margin-left: 10%;
+}
+.sidebar hr{
+	width: 90%;
+	margin-left: 5%;
+	border: solid #ddd;
+	border-width: 1px 0 0;
+}
+.sidebar a{
+	color: #212121;
+	text-decoration: none;
+	overflow-x: hidden;
+	display: block;
+	padding: 10px 0 10px 0;
+	margin-left: 5%;
+	font-family: Verdana, sans-serif;
+}
+.sidebar a:hover{
+	opacity: 0.7;
+}
+.close{
+	top: 0;
+	right: 25px;
+	padding-top: 0;
+	font-size: 35px;
+	position: absolute;
+}
+#ioconf{
+	color: #262626;
+}
+article {
+	width: 100%;
+	height: auto;
+}
+.leftbar{
+	display: none;
+}
+/***********************************************Top menu css end***************************************/
+
+
+
+/*********************************************Footer CSS*************************************/
+.footmenu{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.footmenu a{
+  color: black;
+}
+.footmenu a:hover{
+  color: #0b7dda;
+}
+.fmenu1{
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#fmenu{
+  padding: 3px 0 5px 0;
+  font-size: 12px;
+}
+.footmenu::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#home{
+  font-size: 25px;
+  padding: 5px 0 2px 0;
+  color: #262626;
+}
+#compass{
+  font-size: 23px;
+  padding: 5px 0 2px 0;
+  color: #262626;
+}
+#book{
+  font-size: 23px;
+  padding: 5px 0 2px 0;
+  color: #262626;
+}
+.bell{
+  position: relative;
+}
+.bell1{
+  position: absolute;
+  top: 15px;
+  right: 40%;
+  font-size: 4px;
+  background-color: red;
+  color: red;
+  padding: 1px 2px;
+  border-radius: 100%;
+}
+#bell{
+  font-size: 22px;
+  padding: 5px 0 2px 0;
+  color: #262626;
+}
+.bspace{
+  height: 50px;
+}
+@media only screen and (min-width: 750px) {
+  .footmenu{
+      display: none;
+  }
+  .bspace{
+      display: none;
+  }
+}
+/************************************Footer css end*******************************************/
+
+
+
+
+
+/****************************************************FOR LOADER******************************************/
+#modal{
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+}
+#modal-form{
+  background: #fff;
+  width: 55%;
+  position: relative;
+  top: 20%;
+  left: 22.5%;
+  padding: 15px;
+  border-radius: 4px;
+  text-align: center;
+}
+#modal-form h2{
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+#modal-form p{
+  font-size: 14px;
+  line-height: 1.5;
+}
+#close-btn{
+  color: #1877F2;
+  cursor: pointer;
+  padding: 10px 0 0 60%;
+}
+#right-btn{
+  background: #1877F2;
+  color: white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: 40%;
+  cursor: pointer;
+}
+@media (min-width: 600px) {
+  #modal-form{
+    background: #fff;
+    width: 40%;
+    position: relative;
+    top: 20%;
+    left: calc(50% - 20%);
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  #right-btn{
+    background: #1877F2;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 45%;
+    cursor: pointer;
+  }
+}
+/*********************************************LOADER CSSS************************************************/
+
+
+
+
+/************************************************For media query above 750px**************************************/
+@media only screen and (min-width: 750px) {
+	.top{
+		height: 60px;
+		width: 100%;
+	}   
+	#bar{
+		float: left;
+		font-size: 30px;
+		margin: 12px 15px 5px 2.5%;
+	}
+	#snap{
+		float: left;
+		font-size: 30px;
+		text-decoration: none;
+		margin: 10px 15px 5px 5px;
+	}
+	#img{
+		float: right;
+		font-size: 30px;
+		margin: 15px 2.5% 5px 5px;
+	}
+	#img img{
+		height: 30px;
+		width: 30px;
+	}
+	#card{
+		float: right;
+		font-size: 30px;
+		margin: 12px 15px 5px 5px;
+	}
+	#top29{
+		float: right;
+		color: #262626;
+		padding: 0 0 0 10px;
+		display: inline-block;
+		margin: 21px 20px 0 0;
+		text-decoration: none;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.space{
+		height: 60px;
+	}
+	.leftbar{
+		width: 18%;
+		float: left;
+		position: fixed;
+		padding-left: 2.5%;
+		display: block;
+		background-color: #e3e6ef;
+		margin: 15px 0 0 2.5%;
+	}
+	.leftbar hr{
+		width: 80%;
+		border: solid #ddd;
+		border-width: 1px 0 0;
+		margin: 10px 0 10px 0;
+	}
+	.leftbar a{
+		color: #212121;
+		text-decoration: none;
+		overflow-x: hidden;
+		display: block;
+		padding: 10px 0 10px 0;
+	}
+	.leftbar a:hover{
+		opacity: 0.7;
+	}
+	#ioconf{
+		color: #262626;
+	}
+	article{
+		width: 79.5%;
+		float: left;
+		margin-left: 20.5%;
+	}
+}
