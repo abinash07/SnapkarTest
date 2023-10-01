@@ -47,11 +47,13 @@
 			padding-left: 2.5%;
 			color: #FFFFFF;
 			font-size: 10px;
+			margin-top: 1px;
 		}
 		.member::after {
 			content: "";
 			clear: both;
 			display: table;
+			
 		}
 
 		
